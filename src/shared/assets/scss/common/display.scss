@@ -1,0 +1,50 @@
+.fill-width-height {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.fill-height {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-32px{
+  height: 32px;
+  line-height: 32px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-inherit-imp {
+  position: inherit !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.z-3001{
+  z-index: 3001 !important;
+}

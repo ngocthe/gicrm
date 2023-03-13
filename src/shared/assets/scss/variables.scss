@@ -1,0 +1,92 @@
+/* colors */
+$primary-background-color: #434343;
+$primary-text-color: #ffffff;
+$primary-dark-text-color: #646464;
+$primary-background-active-color: #cc81b2;
+$black-color: #303030;
+$pink-color: #f5e8f2;
+
+$green-color: #19be6b;
+$green-medium-color: #00a99d;
+$green-100: #15ab47;
+$green-40: #0034b5;
+$green-50: #82AD24;
+
+
+$warning-color: #ff9900;
+$danger-color: #f5222d;
+$info-color: #17233d;
+$focus-border: #d798c1;
+$grey-color: #5a5a5a;
+$grey-light-color: #e3e2e2;
+$grey-medium-color: #cdcdcd;
+$white-color: #ffffff;
+$lightsteelblue-color: #b0c4de;
+
+/* colors used */
+$red-color: #c03522;
+$red-color-medium: #f56c6c;
+$red-100: #d70035;
+
+$yellow-color: #b4985c;
+$yellow-100: #8a6d3b;
+$yellow-200: #b4985c;
+
+$blue-color: #0071bc;
+$blue: #0052d9;
+$blue-100: #0353A4;
+
+$gray-900: #66686c;
+$gray-800: #606266;
+$gray-700: #66686c;
+$gray-600: #606266cc;
+$gray-500: #d9d9d9;
+$gray-400: #f3f3f3;
+$gray-300: #909399;
+$gray-200: #dcdfe6;
+$gray-100: #e7e7e7;
+$gray-80: #eeeeee;
+$gray-text: #999999;
+
+$bg-guest: #eaecfa;
+$border-color: #dcdfe6;
+
+$bg-change: #15ab47b3;
+$black-110: #212121;
+$black-100: #2a2a2a;
+$black-90: #000000e6;
+$black-80: #000000cc;
+$black-60: #00000099;
+$black-40: #00000066;
+$black-30: #0000004d;
+$black-20: #00000033;
+$black-10: #0000001a;
+$black-5: #0000000d;
+$black-15: #606266;
+$white-10: #ffffff99;
+
+/* font size */
+$primary-font-size: 14px;
+
+// sidebar
+$menuText: #303133;
+$menuActiveText: white;
+
+$menuBg: #0071bc;
+$menuHover: #2c778d;
+
+$sideBarWidth: 270px;
+$height-item: 48px;
+$widthCollapse: 60px;
+$height-header: 58px;
+$minWidth: 1096px;
+
+$fontFamily: sans-serif;
+
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  sideBarWidth: $sideBarWidth;
+}

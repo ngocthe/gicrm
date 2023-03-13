@@ -1,0 +1,84 @@
+@use "../variables.scss";
+
+@import "./flex";
+@import "./text";
+@import "./cursor";
+@import "./spacing";
+@import "./display";
+@import "./reset";
+
+@font-face {
+  font-family: "Noto Sans SC";
+  src: url("~/../../src/shared/assets/fonts/noto/NotoSansSC-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Noto Sans SC Bold";
+  src: url("~/../../src/shared/assets/fonts/noto/NotoSansSC-Bold.otf") format("otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url("~/../../src/shared/assets/fonts/noto/NotoSansJP-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Noto Sans JP Bold";
+  src: url("~/../../src/shared/assets/fonts/noto/NotoSansJP-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Zen Antique";
+  src: url("~/../../src/shared/assets/fonts/zen/ZenAntique-Regular.otf") format("otf");
+}
+
+.el-scrollbar__bar.is-horizontal {
+  height: 8px;
+}
+
+.el-scrollbar__bar.is-vertical {
+  width: 8px;
+}
+
+.el-scrollbar__thumb:hover {
+  background-color: #000000;
+}
+
+html,
+body {
+  font-family: variables.$fontFamily;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000cc;
+  word-break: break-word;
+}
+
+.el-form-item__error {
+  font-size: 11px;
+  margin-left: 0;
+}
+
+.el-form-item__label {
+  color: #000000cc;
+}
+
+.required-field {
+  &:after {
+    content: "*";
+    font-size: 14px !important;
+    color: #f56c6c;
+    font-weight: 400;
+    margin-left: 4px;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+}
+
+.el-form  {
+  .el-form-item {
+    .el-form-item__label {
+      cursor: auto;
+    }
+  }
+}

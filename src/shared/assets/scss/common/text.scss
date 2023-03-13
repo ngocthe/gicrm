@@ -1,0 +1,107 @@
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.text-pre-line {
+  white-space: pre-line;
+}
+
+.text-no-wrap {
+  white-space: nowrap;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.break-all {
+  word-break: break-all; /* Chrome, Safari */
+  word-wrap: break-word; /* IE11, Firefox */
+}
+
+.text-keep-all {
+  word-break: keep-all;
+}
+
+.break-work {
+  word-break: break-word;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+/* show text elise when text much long */
+
+.text-long-elise {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+
+.text-long-elise-2 {
+  @extend .text-long-elise;
+  -webkit-line-clamp: 2;
+}
+
+.text-long-elise-3 {
+  @extend .text-long-elise;
+  -webkit-line-clamp: 3;
+}
+
+.text-no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  /*
+  Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox
+  */
+}
+/* end text elise when text much long */

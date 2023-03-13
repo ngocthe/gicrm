@@ -1,0 +1,23 @@
+/* Layout break point */
+$_phone: 376px;
+$_sm: 768px;
+$_md: 1025px;
+$_lg: 1200px;
+$_xl: 1920px;
+$_laptop: 1400px;
+
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  // do not use same name, it will override.
+  $sm: $_sm,
+  $md: $_md,
+  $lg: $_lg,
+  $xl: $_xl
+);
+
+$custom-breakpoints-spec: (
+        "laptop-and-up": "(min-width: #{$_laptop})",
+        "laptop-and-down": "(max-width: #{$_laptop - 1})",
+        "xs-phone": "(max-width: #{$_phone - 1})",
+);
+@use "element-plus/theme-chalk/src/display" as *;
+@use "element-plus/theme-chalk/src/col" as *;
